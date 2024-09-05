@@ -1,17 +1,18 @@
 package main
 
 import (
-	"milvus-in-action/operation"
+	"github.com/tangthinker/milvus-in-action/operation"
+	"github.com/tangthinker/milvus-in-action/util"
 )
 
 func main() {
-	operation.CreateCollection()
+	//operation.CreateCollection()
 	//operation.CreateIndex()
 	//
-	//searchVector, err := util.Image2Vector(operation.SearchImageName)
-	//if err != nil {
-	//	panic(err)
-	//}
-	//
-	//operation.Search(searchVector, 4)
+	searchVector, err := util.Image2Vector(operation.SearchImageName)
+	if err != nil {
+		panic(err)
+	}
+
+	operation.Search(searchVector, 4)
 }

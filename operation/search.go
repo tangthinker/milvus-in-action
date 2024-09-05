@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 	"github.com/milvus-io/milvus-sdk-go/v2/entity"
+	"github.com/tangthinker/milvus-in-action/milvus"
 	"log"
-	"milvus-in-action/milvus"
 )
 
 func Search(vec []float32, topK int) {

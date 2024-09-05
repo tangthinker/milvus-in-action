@@ -3,8 +3,8 @@ package operation
 import (
 	"context"
 	"github.com/milvus-io/milvus-sdk-go/v2/entity"
+	"github.com/tangthinker/milvus-in-action/milvus"
 	"log"
-	"milvus-in-action/milvus"
 	"os"
 )
 

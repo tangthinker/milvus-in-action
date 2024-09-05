@@ -2,8 +2,8 @@ package operation
 
 import (
 	"context"
+	"github.com/tangthinker/milvus-in-action/milvus"
 	"log"
-	"milvus-in-action/milvus"
 	"os"
 )
 

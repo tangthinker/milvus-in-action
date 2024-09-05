@@ -4,10 +4,10 @@ import (
 	"context"
 	"encoding/json"
 	"github.com/milvus-io/milvus-sdk-go/v2/entity"
+	"github.com/tangthinker/milvus-in-action/milvus"
+	"github.com/tangthinker/milvus-in-action/util"
 	"io/fs"
 	"log"
-	"milvus-in-action/milvus"
-	"milvus-in-action/util"
 	"path/filepath"
 )
 
